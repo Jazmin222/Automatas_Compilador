@@ -1,2 +1,8 @@
-from django.urls import pathlib
-from.import views
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path("Hola",views.main)
+]
+
+

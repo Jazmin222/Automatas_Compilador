@@ -7,7 +7,7 @@ statement: assing | print | if_statement | for_statement;
 assing:ID'='expr;
 
 /*Definimos print */
-print:'print''(expr)'
+print:'print''(expr)';
 
 /*Definimos if */
 if_statement:'if''('expr')'block;
